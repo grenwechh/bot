@@ -1,7 +1,7 @@
 import os, sqlite3
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandler
-TOKEN=os.environ.get("TELEGRAM_BOT_TOKEN")
+TOKEN=os.environ.get("BOT_TOKEN")
 ADMIN_ID=8817751663
 ADMIN_USERNAME="fizaccountss"
 CRYPTO_LINK="https://app.tonkeeper.com/transfer/UQBDCGe7u3V-3T-dSNbaGBP6brOVoWc_Vnp1q_bUapQOs3A_"
